@@ -65,7 +65,7 @@ export default class DropdownComponent extends Component {
           // right:<TextInput.Icon icon={()=><DropDownIcon width={RFValue(10)} height={RFValue(18)} style={{marginTop:10}}/>}/>,
           right:<TextInput.Icon icon={()=><DownIcon width={RFValue(12)} height={RFValue(16)} style={{marginTop:10}}/>}/>,
 
-          style: { ...styles.dropDownStyle, height: Platformnv.OS === 'ios' ? 'auto' : this.componentHeight, },
+          style: { ...styles.dropDownStyle, height: this.componentHeight, },
         }}
         dropDownItemStyle={{ backgroundColor: 'white', height: this.componentHeight, }}
       />
