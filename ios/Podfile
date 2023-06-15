@@ -1,0 +1,40 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '11.0'
+
+target 'CitizeX' do
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => false
+  )
+
+  # react-native-maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps' # This path is likely to be `../node_modules/react-native-maps` in your own project.
+  permissions_path = '../node_modules/react-native-permissions/ios'
+
+  pod 'react-native-maps', path: rn_maps_path
+  pod 'react-native-google-maps', path: rn_maps_path  # Remove this line if you don't want to support GoogleMaps on iOS
+
+  pod 'react-native-pager-view', :path => '../node_modules/react-native-pager-view'
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+
+  target 'CitizeXTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable the next line.
+  # use_flipper!()
+
+  # post_install do |installer|
+  #   react_native_post_install(installer)
+  # end
+  use_native_modules!
+end

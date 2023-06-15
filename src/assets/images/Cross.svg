@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Cross" transform="translate(-325 -245)">
+    <circle id="Ellipse_130" data-name="Ellipse 130" cx="11" cy="11" r="11" transform="translate(325 245)" fill="#131313"/>
+    <g id="cross-sign" transform="translate(330 250)">
+      <path id="Path_620" data-name="Path 620" d="M11.51,1.037,10.7.24A.578.578,0,0,0,9.9.24L5.875,4.262l-4.1-4.1a.578.578,0,0,0-.806,0L.164.97a.578.578,0,0,0,0,.806L4.253,5.866.24,9.9a.578.578,0,0,0,0,.806l.806.806a.578.578,0,0,0,.806,0L5.875,7.488,9.9,11.51a.578.578,0,0,0,.806,0l.806-.806a.578.578,0,0,0,0-.806L7.478,5.875,11.5,1.853A.582.582,0,0,0,11.51,1.037Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

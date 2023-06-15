@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="play_icon" data-name="play icon" transform="translate(-197 -310)">
+    <rect id="Rectangle_1609" data-name="Rectangle 1609" width="45" height="45" rx="22.5" transform="translate(197 310)" fill="#fff"/>
+    <g id="play_arrow-24px" transform="translate(206.682 317.682)">
+      <path id="Path_425" data-name="Path 425" d="M0,0H28.636V28.636H0Z" fill="none"/>
+      <path id="Path_426" data-name="Path 426" d="M8,5V21.7l13.125-8.352Z" transform="translate(0.318 1.318)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

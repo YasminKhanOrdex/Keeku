@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "940806913976",
+    "project_id": "keeku-c2161",
+    "storage_bucket": "keeku-c2161.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940806913976:android:f51c74adf0fc748bcd194d",
+        "android_client_info": {
+          "package_name": "com.keeku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940806913976-10lrubaoktui0vqmkge12ht5uvtjt9il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-MC-AeLUEpaiBX7YVGSNAqRJR8gAMr7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940806913976-10lrubaoktui0vqmkge12ht5uvtjt9il.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "940806913976-0e4j11tu8qj0bs0lc9ratetic8d8fvqm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ordex.keekudev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
